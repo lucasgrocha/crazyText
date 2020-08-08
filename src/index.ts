@@ -7,7 +7,7 @@ const convertText = (inputValue: string) => {
   for (const word of wordOfPhrase) {
     newArr.push(converted(word));
   }
-  return newArr.join;
+  return newArr.join();
 };
 
 const converted = (word: string) => {
